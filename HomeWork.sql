@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS facultet
 );
 CREATE TABLE IF NOT EXISTS group_from_facultet
 (
-	id INT NOT NULL AUTO_INCREMENT Primary key,
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(50),
 	facultet_id INT NOT NULL,
 	FOREIGN KEY (facultet_id) REFERENCES facultet (id)
