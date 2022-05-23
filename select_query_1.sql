@@ -3,5 +3,5 @@ SELECT *
 FROM student
 WHERE 
 (
-	age = 19
+    age = 19
 );
